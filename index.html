@@ -4,9 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/style - Copy.css" />
   <title>codeQuiz</title>
 </head>
 <body>
-  <script src="./assets/js/script.js"></script>
+
+  <div id="hud">
+    <h3 id="highScores">View High Scores</h3>
+    <span id="timer" class="">0</span>
+  </div>
+
+  <section id="startPage" class="startPosition">
+    <div id="startPageContainer">
+      <h1 class="pageTitle">Coding Quiz Challenge</h1>
+      <p>Try to answer the following code-related questions within the time limit.
+        Keep in mind that incorrect answers will penalize your score/time by ten seconds!
+      </p>
+      <button id="quizBtn">Start Quiz!</button>
+    </div>
+  </section>
+
+  <section id="quizQuestions" class="positionHide">
+    <h2 id="placedQuestion">Questions :</h2>
+    <ul>
+      <li><button id="answerOne">answer</button></li>
+      <li><button id="answerOne">answer</button></li>
+      <li><button id="answerOne">answer</button></li>
+      <li><button id="answerOne">answer</button></li>
+    </ul>
+  </section>
+
+
+
+
 </body>
 </html>
